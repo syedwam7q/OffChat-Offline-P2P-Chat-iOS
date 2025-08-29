@@ -42,3 +42,7 @@ A simple iOS chat app that works without Internet using MultipeerConnectivity ov
 - Persistent Core Data storage
 - Attachments (resources/streams)
 - Presence/connection status UI
+
+## Authors
+- Syed Wamiq
+- Navya Mudgal
