@@ -1,0 +1,29 @@
+name: OffChat
+options:
+  minimumXcodeGenVersion: 2.37.0
+  deploymentTarget:
+    iOS: "13.0"
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.offchat
+    TARGETED_DEVICE_FAMILY: 1
+    IPHONEOS_DEPLOYMENT_TARGET: 13.0
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+packages: {}
+targets:
+  OffChat:
+    type: application
+    platform: iOS
+    sources:
+      - path: OffChat
+    resources:
+      - path: OffChat/Resources
+      - path: OffChat/Resources/Assets.xcassets
+    settings:
+      base:
+        INFOPLIST_FILE: OffChat/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+    scheme:
+      testTargets: []
